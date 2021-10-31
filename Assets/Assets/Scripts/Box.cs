@@ -12,6 +12,7 @@ public class Box : MonoBehaviour
 
     private Interactable interactable;
     private new Rigidbody rigidbody;
+
     private const Hand.AttachmentFlags AttachmentFlags = Hand.defaultAttachmentFlags &
                                                          ~Hand.AttachmentFlags.SnapOnAttach &
                                                          ~Hand.AttachmentFlags.DetachOthers &
@@ -37,8 +38,4 @@ public class Box : MonoBehaviour
             hand.HoverUnlock(interactable);
         }
     }
-
-    private void OnAttachedToHand(Hand hand) => rigidbody.mass = 0;
-
-    private void OnDetachedFromHand(Hand hand) => rigidbody.mass = 0.5f;
 }

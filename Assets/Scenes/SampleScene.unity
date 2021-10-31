@@ -862,6 +862,9 @@ MonoBehaviour:
   boxMaterial: {fileID: 2100000, guid: 971c19817c4a4954b85edaa5061eafe6, type: 2}
   boxes:
   - {fileID: 7855203788760961606, guid: aa9c75d1fc4b6b4498eeb8007e085312, type: 3}
+  - {fileID: 7659233687571818601, guid: 2df13ce6435d74847892df96341182f0, type: 3}
+  - {fileID: 8080691775218073931, guid: 7a6abf4a7c28ccd48a591d883216a7df, type: 3}
+  - {fileID: 2318175841961542493, guid: ca42e9c8fb55d9d448d687c19780db21, type: 3}
 --- !u!65 &1736113121
 BoxCollider:
   m_ObjectHideFlags: 0
